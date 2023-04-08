@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Mawarid | Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Bootstrap CSS -->
+    <link href="BSCarousel/bootstrap.min.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .carousel {
+            outline: hidden;
+        }
+        
+        .carousel2 {
+            padding-left: 10em;
+            padding-right: 10em;
+        }
+        
+        .carousel3 {
+            padding-left: 15em;
+            padding-right: 15em;
+        }
+        
+        .carousel-control-next,
+        .carousel-control-prev {
+            position: absolute;
+            top: 12em;
+            bottom: 0;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+            background-color: none;
+            border: 0;
+            opacity: .5;
+            transition: opacity .15s ease;
+            height: 35px;
+            box-sizing: border-box;
+        }
+        
+        .prev2,
+        .next2 {
+            position: absolute;
+            top: 12em;
+            bottom: 0;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+            background-color: black;
+            border: 0;
+            opacity: .5;
+            transition: opacity .15s ease;
+            height: 35px;
+            border-radius: 35px;
+            box-sizing: border-box;
+        }
+        
+        .carousel-control-next {
+            right: 2em;
+            opacity: 1 !important;
+        }
+        
+        .carousel-control-prev {
+            left: 2em;
+            opacity: 1 !important;
+        }
+        
+        .carousel-next-icon,
+        .carousel-prev-icon {
+            width: 2rem;
+            height: 2rem;
+        }
+        
+        .carousel-indicators .active {
+            opacity: 1 !important;
+        }
+        
+        .carousel-indicators {
+            top: 70%;
+        }
+        
+        .carousel-indicators [data-bs-target] {
+            box-sizing: content-box;
+            flex: 0 1 auto;
+            width: 10px;
+            height: 10px;
+            padding: 0;
+            margin-right: 10px;
+            margin-left: 10px;
+            text-indent: -999px;
+            cursor: pointer;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 0;
+            border-radius: 10px;
+            opacity: .5;
+            transition: opacity .6s ease;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <li>
+            <a href="About.html">About</a>
+        </li>
+        <li class="drpone">
+            <a href="#">Products&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &plus;</a>
+        </li>
+        <div class="subnavmenu">
+            <ul>
+                <li class="drpdowntwo">
+                    Extra Virgin Olive Oil&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &plus;
+                </li>
+                <div class="subnavmenu3">
+                    <ul>
+                        <li><a href="product.html">El Berro</a></li>
+                        <li><a href="product.html">Bahi</a></li>
+                    </ul>
+                </div>
+                <li>
+                    Virgin Olive Oil
+                </li>
+                <li>
+                    Pomace Olive Oil
+                </li>
+                <li>
+                    Blended Olive Oil
+                </li>
+            </ul>
+        </div>
+        <li class="drptwo">
+            <a href="#">Brands&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &plus;</a>
+        </li>
+        <div class="subnavmenu2">
+            <ul>
+                <li>
+                    <a href="product.html">El Berro</a>
+                </li>
+                <li>
+                    <a href="product.html">Maderra</a>
+                </li>
+                <li>
+                    <a href="product.html">Trulivo</a>
+                </li>
+                <li>
+                    <a href="product.html">Afamia</a>
+                </li>
+                <li>
+                    <a href="product.html">Bahi</a>
+                </li>
+                <li>
+                    <a href="product.html">Bertini</a>
+                </li>
+            </ul>
+        </div>
+        <li>
+            <a href="Recipes.html">Recipes</a>
+        </li>
+        <li>
+            <a href="#">Private Labels</a>
+        </li>
+        <li>
+            <a href="Contact.html">Contact Us</a>
+        </li>
+
+    </div>
+
+    <div class="sidebar">
+        <a href="index.html" style="text-decoration: none; text-align: center;"><img src="images/navlogo.jpg" alt="MawaridLogo" class="navlogo" /></a>
+        <span class="humberger" onclick="openNav()">&#9776;</span>
+    </div>
+    <nav id="main-nav">
+        <a href="index.html" style="text-decoration: none; text-align: center;"><img src="images/navlogo.jpg" alt="MawaridLogo" class="navlogo" /></a>
+        <ul class="navlist">
+            <li><a href="About.html">About</a></li>
+            <li>
+                <a href="#">
+                    <div class="tip">
+                        Products
+                        <div class="tiptext">
+                            <ul class="tiptextlist">
+                                <li class="drpdwn-menu">
+                                    <a href="#">EXTRA VIRGIN OLIVE OIL &nbsp; &nbsp; &Rightarrow;</a>
+                                    <ul class="drpdwn-submenu">
+                                        <li>
+                                            <a href="product.html">El Berro</a>
+                                        </li>
+                                        <li>
+                                            <a href="product.html">Bahi</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">VIRGIN OLIVE OIL &nbsp; &nbsp; &Rightarrow;</a>
+                                </li>
+                                <li>
+                                    <a href="#">POMACE OLIVE OIL &nbsp; &nbsp; &Rightarrow;</a>
+                                </li>
+                                <li>
+                                    <a href="#">BLENDED OLIVE OIL &nbsp; &nbsp; &Rightarrow;</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="tip2">
+                        Brands
+                        <div class="tiptext2">
+                            <a href="product.html">El Berro</a>
+                            <a href="product.html">Maderra</a>
+                            <a href="product.html">Trulivo</a>
+                            <a href="product.html">Afamia</a>
+                            <a href="product.html">Bahi</a>
+                            <a href="product.html">Bertini</a>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+            <li><a href="Recipes.html">Recipes</a></li>
+            <li><a href="#">Private Labels</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li>
+                <a href="#">English <img src="images/global.png" alt="global" width="15px" style="margin-left: 5px;"/></a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/mainheadbackg2.jpg" class="d-block w-100" alt="img_fjords_wide" />
+                <div class="headerone">
+                    <img src="images/Bar.jpg" alt="Bar" />
+                    <div class="subheader">
+                        Mawarid brings the best olive oils to your table.
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/banner7.jpg" class="d-block w-100" alt="img_mountains_wide" />
+                <div class="headerone">
+                    <img src="images/Bar.jpg" alt="Bar" />
+                    <div class="subheader">
+                        Mawarid brings the best olive oils to your table.
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/background02.jpg" class="d-block w-100" alt="img_nature_wide" />
+                <div class="headerone">
+                    <img src="images/Bar.jpg" alt="Bar" />
+                    <div class="subheader">
+                        Mawarid brings the best olive oils to your table.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="SectionOne">
+            <p>
+                <img src="images/Bar2.jpg" alt="Bartwo" />
+            </p>
+            <div class="subheader2">
+                <h1>About us</h1>
+                <p>
+                    <b>Mawarid food industry</b> is the Largest specialized olive oil bottling plant in the UAE. The company has a strong capacity of about 300 tons dedicated entirely for olive oil production. n addition, it runs state of the art storing,
+                    filtering and bottling facility with special focus on automation and hygiene assuring the highest quality of products.
+                </p>
+                <a href="#" target="_blank" style="text-decoration: none;">
+                    <button class="buttn">
+                    Discover More
+                </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mainsection">
+        <div class="container SectionTwo">
+            <img src="images/Bar2.jpg" alt="Bartwo" />
+            <h1>Our Products</h1>
+        </div>
+        <div class="container SectionThree">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">EXTRA VIRGIN OLIVE OIL</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">VIRGIN OLIVE OIL</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="messages">POMACE OLIVE OIL</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="settings">BLENDED OLIVE OIL</a>
+            </div>
+        </div>
+        <div class="container SectionFour tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <img src="images/oilbottle.jpg" alt="OilBottle">
+                <h2 style="color: #27793b;">EXTRA VIRGIN</h2>
+                <h3 style="color: #27793b;">OLIVE OIL</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <a href="#" target="_blank" style="text-decoration: none;">
+                    <button class="buttn">
+                    Discover More
+                </button>
+                </a>
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <img src="images/oilbottle.jpg" alt="OilBottle">
+                <h2 style="color: #27793b;">VIRGIN</h2>
+                <h3 style="color: #27793b;">OLIVE OIL</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <a href="#" target="_blank" style="text-decoration: none;">
+                    <button class="buttn">
+                    Discover More
+                </button>
+                </a>
+            </div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                <img src="images/oilbottle.jpg" alt="OilBottle">
+                <h2 style="color: #27793b;">POMACE</h2>
+                <h3 style="color: #27793b;">OLIVE OIL</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <a href="#" target="_blank" style="text-decoration: none;">
+                    <button class="buttn">
+                    Discover More
+                </button>
+                </a>
+            </div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                <img src="images/oilbottle.jpg" alt="OilBottle">
+                <h2 style="color: #27793b;">BLENDED</h2>
+                <h3 style="color: #27793b;">OLIVE OIL</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <a href="#" target="_blank" style="text-decoration: none;">
+                    <button class="buttn">
+                    Discover More
+                </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="container SectionFive">
+            <div class="row">
+                <div class="col-md-6 Pure">
+                    <img src="images/banner1.jpg" alt="PureOil" width="70%" />
+                    <img src="images/banner2.jpg" alt="OliveFarm" width="70%" id="Farm" />
+                </div>
+                <div class="col-md-6 extra">
+                    <img src="images/banner3.jpg" alt="ExtraOilBottle" width="99%" />
+                </div>
+            </div>
+        </div>
+        <div class="container special" id="project-2">
+            <img src="images/Bar2.jpg" alt="Bartwo" />
+            <h1>Special recipes</h1>
+        </div>
+
+    </div>
+
+    <div class="scrollup2" onclick="$('nav').animatescroll({padding:0});">
+        <img src="images/scrollup.png" alt="arrowup" />
+    </div>
+
+    <!--Card List Carousel-->
+    <div class="container-fluid SectionSix">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="inam" class="carousel slide carousel2" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card card3" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes1.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Beetroot hummus</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card card3" style="width: 300px;">
+                                            <img src="images/recipes2.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Hummus</h4>
+                                                <p class="card-text">Sed commodo pharetra libero, sed interdum odio lacinia blandit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card card3" style="width: 300px;">
+                                            <img src="images/recipes3.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Pasta with pesto</h4>
+                                                <p class="card-text">Vivamus lacus risus, efficitur et mattis vei, suscipit eu libero.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card card3" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes1.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Beetroot hummus</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card card3" style="width: 300px;">
+                                            <img src="images/recipes2.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Hummus</h4>
+                                                <p class="card-text">Sed commodo pharetra libero, sed interdum odio lacinia blandit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card card3" style="width: 300px;">
+                                            <img src="images/recipes3.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Pasta with pesto</h4>
+                                                <p class="card-text">Vivamus lacus risus, efficitur et mattis vei, suscipit eu libero.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <a href="#inam" class="carousel-control-prev" data-bs-slide="prev">
+                        <img class="carousel-prev-icon" src="images/left.png" alt="arrowright">
+                    </a>
+                    <a href="#inam" class="carousel-control-next" data-bs-slide="next">
+                        <img src="images/right.png" class="carousel-next-icon" alt="arrowright">
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--Responsive Card List Carousel-->
+    <div class="container-fluid SectionSix2th">
+        <div class="row">
+            <div class="col-md-12 maincolum">
+                <div id="inam2" class="carousel slide carousel3" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-between;">
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes1.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Beetroot hummus</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes2.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Hummus</h4>
+                                                <p class="card-text">Sed commodo pharetra libero, sed interdum odio lacinia blandit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-between;">
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes3.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Pasta with pesto</h4>
+                                                <p class="card-text">Vivamus lacus risus, efficitur et mattis vei, suscipit eu libero.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes1.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Beetroot hummus</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-between;">
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes2.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Hummus</h4>
+                                                <p class="card-text">Sed commodo pharetra libero, sed interdum odio lacinia blandit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes3.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Pasta with pesto</h4>
+                                                <p class="card-text">Vivamus lacus risus, efficitur et mattis vei, suscipit eu libero.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <a href="#inam2" class="carousel-control-prev prev2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#inam2" class="carousel-control-next next2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-------- Responsive Carousel One Item  -------->
+    <div class="container-fluid SectionSix3th">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="inam3" class="carousel slide carousel3" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes1.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Beetroot hummus</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes2.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Hummus</h4>
+                                                <p class="card-text">Sed commodo pharetra libero, sed interdum odio lacinia blandit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes3.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Pasta with pesto</h4>
+                                                <p class="card-text">Vivamus lacus risus, efficitur et mattis vei, suscipit eu libero.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes1.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Beetroot hummus</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes2.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Hummus</h4>
+                                                <p class="card-text">Sed commodo pharetra libero, sed interdum odio lacinia blandit.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6 colum">
+                                        <div class="card card2" style="width: 300px;margin: auto;">
+                                            <img src="images/recipes3.jpg" width="100%" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Pasta with pesto</h4>
+                                                <p class="card-text">Vivamus lacus risus, efficitur et mattis vei, suscipit eu libero.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <a href="#inam3" class="carousel-control-prev prev2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#inam3" class="carousel-control-next next2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container-floid foter">
+        <div class="container footercontent">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>Mawarid</h6>
+                    <ul class="mawaridlist">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About us</a></li>
+                        <li><a href="product.html">Our Products</a></li>
+                        <li><a href="Recipes.html">Recipes</a></li>
+                        <li><a href="Contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>Info</h6>
+                    <ul class="info">
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>Follow us</h6>
+                    <ul class="follow">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerlogo">
+                    <a href="index.html" style="text-decoration: none;"><img src="images/mawaredlogo.jpg" alt="FooterLogo" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function openNav() {
+            document.getElementById("mySidenav").style.marginLeft = "0px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.marginLeft = "-415px";
+        }
+    </script>
+
+    <script type="text/javascript" src="JavaScript/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="JavaScript/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="JavaScript/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="JavaScript/debug.addIndicators.js"></script>
+    <script type="text/javascript" src="JavaScript/index.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenMax.min.js"></script>
+    <script type="text/javascript" src="JavaScript/animation.gsap.js"></script>
+    <script type="text/javascript" src="JavaScript/ScrollToPlugin-latest-beta.js"></script>
+    <script type="text/javascript" src="JavaScript/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenLite.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TimelineLite.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenMax-latest-beta.js"></script>
+    <script type="text/javascript" src="BSCarousel/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="cardlist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="JavaScript/animatescroll.js"></script>
+    <script type="text/javascript" src="cardlist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="cardlist/js/popper.min.js"></script>
+    
+    <script>
+        $("document").ready(function() {
+            $(".drpone").click(function() {
+                $(".subnavmenu").slideToggle(500);
+            });
+
+            $(".drptwo").click(function() {
+                $(".subnavmenu2").slideToggle(500);
+            });
+
+            $(".drpdowntwo").click(function() {
+                $(".subnavmenu3").slideToggle(500);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

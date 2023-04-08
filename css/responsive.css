@@ -1,0 +1,758 @@
+@media screen and (max-width: 1330px) {
+    .navlist li {
+        margin-left: 5.5em !important;
+    }
+    .tiptextlist li {
+        margin-left: 0px !important;
+    }
+    .carousel2 {
+        padding-left: 7em !important;
+        padding-right: 7em !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .navlist li {
+        margin-left: 5em !important;
+    }
+    .tiptextlist li {
+        margin-left: 0px !important;
+    }
+    .carousel2 {
+        padding-left: 6em !important;
+        padding-right: 6em !important;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .navlist li {
+        margin-left: 4.8em !important;
+    }
+    .tiptextlist li {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 11.5em !important;
+    }
+    .navlist li {
+        margin-left: 4.5em !important;
+    }
+    .tiptextlist li {
+        margin-left: 0px !important;
+    }
+    .carousel2 {
+        padding-left: 5em !important;
+        padding-right: 5em !important;
+    }
+    .subheader {
+        font-size: 50px !important;
+    }
+    .subheader2 p {
+        padding-left: 20% !important;
+        padding-right: 20% !important;
+    }
+    .SectionFour p {
+        padding-left: 20% !important;
+        padding-right: 20% !important;
+    }
+    .tab-pane img {
+        width: 850px !important;
+    }
+    .list-group-item {
+        font-size: 15px !important;
+    }
+    .foter {
+        margin-top: 2em !important;
+    }
+    .section331 {
+        padding-left: 0em !important;
+        padding-right: 0em !important;
+    }
+    .section331 p {
+        padding-left: 0em !important;
+        padding-right: 0em !important;
+    }
+    .section332 {
+        padding-left: 0em !important;
+        padding-right: 0em !important;
+    }
+    .section332 p {
+        padding-left: 0em !important;
+        padding-right: 0em !important;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+    .navlist li {
+        margin-left: 4em !important;
+    }
+    .tiptextlist li {
+        margin-left: 0px !important;
+    }
+    .carousel2 {
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+    }
+    .carousel-control-next {
+        right: 0em !important;
+        opacity: 1 !important;
+    }
+    .carousel-control-prev {
+        left: 0em !important;
+        opacity: 1 !important;
+    }
+    .footercontent {
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+        padding-bottom: 2em !important;
+    }
+    .subSection12 p {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .section331 p {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    .section332 p {
+        padding-right: 0em;
+    }
+    .section55 p {
+        padding-left: 15em;
+        padding-right: 15em;
+    }
+    .oilheader p {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 10.5em !important;
+    }
+    nav {
+        display: none;
+    }
+    .sidebar {
+        display: block;
+        position: -webkit-sticky;
+        position: -moz-sticky;
+        position: -ms-sticky;
+        position: -o-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    .carousel2 {
+        padding-left: 0em !important;
+        padding-right: 0em !important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .card2 {
+        width: 250px !important;
+    }
+    .subSection12 p {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .section022 {
+        margin-top: 16em;
+    }
+    .section55 p {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    .oilheader {
+        top: 20%;
+    }
+    .section022 {
+        margin-top: 10em !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .subheader {
+        font-size: 40px !important;
+    }
+    .subheader2 p {
+        padding-left: 12% !important;
+        padding-right: 12% !important;
+    }
+    .SectionFour p {
+        padding-left: 12% !important;
+        padding-right: 12% !important;
+    }
+    .tab-pane img {
+        width: 650px !important;
+    }
+    .list-group-item {
+        font-size: 15px !important;
+    }
+    .SectionSix {
+        display: none !important;
+    }
+    .SectionSix2th {
+        margin-top: 5em !important;
+        display: block;
+    }
+    .card3 {
+        width: 250px !important;
+    }
+    .prev2 {
+        top: 10em !important;
+        left: 2em !important;
+    }
+    .next2 {
+        top: 10em !important;
+        right: 2em !important;
+    }
+    .carousel3 {
+        padding-left: 10em !important;
+        padding-right: 10em !important;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .prev2 {
+        top: 10em !important;
+    }
+    .next2 {
+        top: 10em !important;
+    }
+    .carousel3 {
+        padding-left: 5em !important;
+        padding-right: 5em !important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    nav {
+        display: none;
+    }
+    .sidebar {
+        display: block;
+    }
+    .subheader {
+        font-size: 30px !important;
+    }
+    .subheader2 p {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+    .SectionFour p {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+    .carousel3 {
+        padding-left: 5em !important;
+        padding-right: 5em !important;
+    }
+    .next2 {
+        top: 10em !important;
+        right: 0em !important;
+    }
+    .prev2 {
+        top: 10em !important;
+        left: 0em !important;
+    }
+    .subSection12 p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .section022 {
+        margin-top: 10em;
+    }
+    .section55 p {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    .oilheader {
+        top: 15%;
+    }
+    .oilheader p {
+        font-size: 2em;
+    }
+    .section331 p {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .next2 {
+        top: 10em !important;
+    }
+    .prev2 {
+        top: 10em !important;
+    }
+    .footercontent {
+        padding-left: 0em !important;
+        padding-right: 0em !important;
+    }
+    .section022 {
+        margin-top: 10em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headerone {
+        top: 15% !important;
+    }
+    .subheader2 p {
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .SectionFour p {
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .tab-pane img {
+        width: 450px !important;
+    }
+    .list-group-item {
+        font-size: 15px !important;
+    }
+    .card-title {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .extra img {
+        margin-top: 1.3em !important;
+        width: 70% !important;
+    }
+    .colum {
+        width: 50% !important;
+    }
+    .card2 {
+        width: 200px !important;
+    }
+    .footercontent .row .col-md-3 {
+        text-align: center !important;
+        margin-top: 2em !important;
+    }
+    .section331 p {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .section55 p {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    #input1{
+        width: 100% !important;
+    }
+    #input2{
+        width: 100% !important;
+    }
+    #input3{
+        width: 100% !important;
+    }
+    #input4{
+        width: 100% !important;
+    }
+    .text{
+        width: 100% !important;
+    }
+    .section88{
+        padding-bottom: 3em;
+    }
+    .foter{
+        margin-top: 0em !important;
+    }
+    .footercontent{
+        padding-top: 2em !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .prev2 {
+        top: 7.5em !important;
+    }
+    .next2 {
+        top: 7.5em !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .colum {
+        width: 50% !important;
+    }
+    .card2 {
+        width: 180px !important;
+    }
+    .prev2 {
+        top: 7.5em !important;
+    }
+    .next2 {
+        top: 7.5em !important;
+    }
+    .footerlogo img {
+        width: 120px !important;
+    }
+    .subSection12 p {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .oilheader p {
+        font-size: 1.5em;
+    }
+    .section55 {
+        margin-top: 8em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .headerone {
+        top: 12% !important;
+    }
+    .subheader {
+        font-size: 25px !important;
+    }
+    .list-group-item {
+        font-size: 12px !important;
+    }
+    .tab-pane img {
+        width: 450px !important;
+    }
+    .carousel3 {
+        padding-left: 5em !important;
+        padding-right: 5em !important;
+    }
+    .prev2 {
+        top: 7em !important;
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+        left: 2em !important;
+    }
+    .next2 {
+        top: 7em !important;
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+        right: 2em !important;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+    .footerlogo img {
+        width: 150px !important;
+    }
+    .footercontent {
+        padding-top: 2em !important;
+    }
+    .footercontent .row .col-md-3 {
+        text-align: center !important;
+        margin-top: 2em;
+    }
+    .footercontent .row {
+        margin: 0px !important;
+    }
+    .footerlogo {
+        float: none !important;
+    }
+    .section331 {
+        text-align: center;
+    }
+    .section332 {
+        text-align: center;
+    }
+    .section022 {
+        margin-top: 10em !important;
+    }
+    .SectionSix2th {
+    display: none;
+    }
+    .SectionSix3th {
+    display: block;
+    margin-top: 3em !important;
+    margin-bottom: 3em !important;
+    }
+    .card2{
+        width: 100% !important;
+    }
+    .section22{
+        padding-top: 3em !important;
+    }
+    .oilheader{
+        top: 40% !important;
+    }
+    .section444{
+        margin-top: 2em !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .colum {
+        width: 100% !important;
+    }
+    
+    .prev2 {
+        top: 12em !important;
+    }
+    .next2 {
+        top: 12em !important;
+    }
+    .oilheader p {
+        font-size: 1.2em;
+    }
+    .section022 {
+        margin-top: 10em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .colum {
+        width: 100% !important;
+    }
+    .SectionTwo {
+        padding-top: 5em !important;
+    }
+    .mainsection {
+        margin-top: 30em !important;
+    }
+    .prev2 {
+        top: 10em !important;
+    }
+    .next2 {
+        top: 10em !important;
+    }
+
+    .section022 {
+        margin-top: 10em !important;
+    }
+    .section22{
+        padding-top: 8em !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .colum {
+        width: 100% !important;
+    }
+    .prev2 {
+        left: 1em !important;
+    }
+    .next2 {
+        right: 1em !important;
+    }
+    .subSection11 h1 {
+        font-size: 2em;
+    }
+    .para{
+        font-size: 1.5em !important;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .colum {
+        width: 100% !important;
+    }
+    .sidenav {
+        width: 415px !important;
+        margin-left: -415px;
+    }
+    .headerone {
+        top: 5% !important;
+    }
+    .subheader {
+        font-size: 15px !important;
+    }
+    .mainsection {
+        margin-top: 32em !important;
+    }
+    .tab-pane img {
+        width: 350px !important;
+    }
+    .prev2 {
+        top: 6em !important;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+    }
+    .next2 {
+        top: 6em !important;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: .7rem;
+        height: .7rem;
+    }
+    .section022 {
+        margin-top: 10em !important;
+    }
+}
+
+@media screen and (max-width:411px) {
+    .colum {
+        width: 100% !important;
+    }
+    .sidenav {
+        width: 411px !important;
+        margin-left: -415px;
+    }
+    .list-group-item {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .colum {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .sidenav {
+        width: 375px !important;
+        margin-left: -375px;
+    }
+    .mainsection {
+        margin-top: 34em !important;
+    }
+    .tab-pane img {
+        width: 300px !important;
+    }
+    .list-group-item {
+        margin-left: .55em !important;
+        margin-right: .55em !important;
+    }
+    .prev2 {
+        top: 8em !important;
+    }
+    .next2 {
+        top: 8em !important;
+    }
+    .oilheader p {
+        font-size: 1em;
+    }
+
+    .section022 {
+        margin-top: 10em !important;
+    }
+    .section22{
+        padding-top: 10em !important;
+    }
+    .card-body{
+        padding: 0.5rem 0rem !important;
+    }
+    .carousel3{
+        padding-left: 4em !important;
+        padding-right: 4em !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .carousel3 {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
+    .prev2 {
+        top: 5em !important;
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+        left: 0em !important;
+    }
+    .next2 {
+        top: 5em !important;
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+        right: 0em !important;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 1rem !important;
+        height: 1rem !important;
+    }
+    .section22{
+        padding-top: 12em !important;
+    }
+    .carousel3{
+        padding-left: 5em !important;
+        padding-right: 5em !important;
+    }
+    .section221{
+        margin-top: 3em !important;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .sidenav {
+        width: 320px !important;
+        margin-right: -320px;
+    }
+    .mainsection {
+        margin-top: 36em !important;
+    }
+    .list-group-item {
+        margin-left: .1em !important;
+        margin-right: .1em !important;
+    }
+    .section022 {
+        margin-top: 10em;
+    }
+    .oilheader p {
+        font-size: .7em;
+    }
+    .subSection11 {
+        top: 10%;
+    }
+
+    .section22{
+        padding-top: 16em !important;
+    }
+    .carousel3{
+        padding-left: 4em !important;
+        padding-right: 4em !important;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .sidenav {
+        width: 280px !important;
+        margin-left: -280px;
+    }
+    .headerone {
+        top: 5% !important;
+    }
+    .subheader {
+        font-size: 10px !important;
+    }
+    .mainsection {
+        margin-top: 38em !important;
+    }
+    .list-group-item {
+        margin-left: 0em !important;
+        margin-right: 0em !important;
+    }
+    .tab-pane img {
+        width: 250px !important;
+    }
+    .list-group-item {
+        font-size: 8px !important;
+    }
+    .maincolum {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .subSection11 h1 {
+        font-size: 1em;
+    }
+    .section022 {
+        margin-top: 10em !important; 
+    }
+}

@@ -1,0 +1,590 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: #27793b;
+    padding: 15px;
+    line-height: 60px;
+    display: block;
+}
+
+.navlogo {
+    float: left !important;
+}
+
+.navlist {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navlist li {
+    display: inline-block;
+    margin-left: 6em;
+    cursor: pointer;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: .8;
+}
+
+.navlist li a:hover {
+    color: white;
+    opacity: 1;
+    transition: .5s;
+}
+
+.active {
+    opacity: 1 !important;
+}
+
+.foter {
+    border-top: .7em solid #27793b;
+    background-color: #424041;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5em;
+}
+
+.foter h6 {
+    margin-bottom: 1.5em;
+}
+
+.footerlogo {
+    float: right !important;
+}
+
+.footercontent {
+    padding-top: 4em;
+    padding-left: 7em !important;
+    padding-right: 7em !important;
+    padding-bottom: 7em;
+}
+
+.mawaridlist {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mawaridlist li {
+    display: list-item;
+    line-height: 2em;
+}
+
+.mawaridlist li a {
+    text-decoration: none;
+    color: rgb(172, 172, 172) !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .5s;
+}
+
+.mawaridlist li a:hover {
+    transition: .5s;
+    color: white !important;
+}
+
+.info {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.info li {
+    display: list-item;
+    line-height: 2em;
+}
+
+.info li a {
+    text-decoration: none;
+    color: rgb(172, 172, 172) !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .5s;
+}
+
+.info li a:hover {
+    transition: .5s;
+    color: white !important;
+}
+
+.follow {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.follow li {
+    display: list-item;
+    line-height: 2em;
+}
+
+.follow li a {
+    text-decoration: none;
+    color: rgb(172, 172, 172) !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .5s;
+}
+
+.follow li a:hover {
+    transition: .5s;
+    color: white !important;
+}
+
+.sidebar {
+    position: relative;
+    background-color: #27793b;
+    padding: 15px;
+    line-height: 60px;
+    overflow: hidden;
+    display: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 360px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 100;
+    box-sizing: border-box;
+    margin-left: -360px;
+}
+
+.sidenav li {
+    display: block;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #27793b;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav li a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #27793b;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sidenav a:hover {
+    color: white;
+    background-color: #27793b;
+}
+
+.closebtn:hover {
+    color: black !important;
+    background-color: #f9f9f9 !important;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.humberger {
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    right: 25px;
+}
+
+.subnavmenu {
+    display: none;
+    box-sizing: border-box !important;
+    width: 350px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.subnavmenu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.subnavmenu ul li {
+    display: list-item;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #27793b;
+    transition: 0.3s;
+}
+
+.subnavmenu ul li:hover {
+    color: white;
+    background-color: #27793b;
+    cursor: pointer;
+}
+
+.subnavmenu2 {
+    display: none;
+    box-sizing: border-box !important;
+    width: 350px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.subnavmenu2 ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.subnavmenu2 ul li {
+    display: list-item;
+}
+
+.subnavmenu2 ul li a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #27793b;
+    transition: 0.3s;
+    font-weight: normal !important;
+}
+
+.subnavmenu2 ul li a:hover {
+    color: white;
+    background-color: #27793b;
+    cursor: pointer;
+}
+
+.subnavmenu3 {
+    display: none;
+    box-sizing: border-box !important;
+    width: 350px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.subnavmenu3 ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.subnavmenu3 ul li {
+    display: list-item;
+}
+
+.subnavmenu3 ul li a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #27793b;
+    transition: 0.3s;
+    font-weight: normal !important;
+}
+
+.subnavmenu3 ul li a:hover {
+    color: white;
+    background-color: #27793b;
+    cursor: pointer;
+}
+
+.tiptextlist {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tiptextlist li {
+    display: list-item;
+    margin-left: 0px;
+}
+
+.tiptextlist li a {
+    text-decoration: none;
+}
+
+.tiptextlist li a:hover {
+    color: #27793b;
+    transition: 0;
+    opacity: 1;
+}
+
+.tip {
+    position: relative;
+    display: inline-block;
+}
+
+.tip2 {
+    position: relative;
+    display: inline-block;
+}
+
+.tip .tiptext {
+    display: none;
+    width: 250px;
+    background-color: white;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-top: -30px !important;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 90%;
+    margin-left: -60px;
+}
+
+.tip2 .tiptext2 {
+    display: none;
+    width: 250px;
+    background-color: white;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-top: -30px !important;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 90%;
+    margin-left: -45px;
+}
+
+.tip .tiptext a {
+    color: #27793b;
+    padding-left: 17px;
+    text-decoration: none;
+    display: block;
+}
+
+.tip2 .tiptext2 a {
+    color: #27793b;
+    padding-left: 17px;
+    text-decoration: none;
+    display: block;
+}
+
+.tip .tiptext a:hover {
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+}
+
+.tip2 .tiptext2 a:hover {
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    color: #27793b;
+    opacity: 1;
+    transition: 0;
+}
+
+.tip .tiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 2%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.tip2 .tiptext2::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 2%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+/*
+.tip:hover .tiptext {
+    display: block;
+}
+
+.tip2:hover .tiptext2 {
+    display: block;
+}
+*/
+
+.drpdwn-menu {
+    position: relative;
+}
+
+.drpdwn-menu .drpdwn-submenu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 250px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-top: -90px !important;
+    top: 150%;
+    left: 98%;
+}
+
+.drpdwn-menu:hover .drpdwn-submenu {
+    display: block;
+}
+
+.section11 {
+    position: relative;
+}
+
+.subSection11 {
+    position: absolute;
+    top: 18%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.subSection12 {
+    position: absolute;
+    top: 75%;
+    left: 20.4%;
+    width: 60%;
+    height: 150px;
+    background-color: white;
+    border-top: .7em solid #27793b;
+    z-index: 1;
+    text-align: center;
+}
+
+.subSection12 h1 {
+    color: #27793b;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subSection12 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 22%;
+    padding-right: 22%;
+    margin-top: 5%;
+}
+
+.section33 {
+    margin-top: 5em;
+}
+
+.section331 {
+    padding-left: 9em !important;
+    padding-right: 9em !important;
+}
+
+.section331 p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section331 h4 {
+    color: #27793b;
+}
+
+.section332 {
+    padding-left: 9em !important;
+    padding-right: 9em !important;
+}
+
+.section332 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.section332 h4 {
+    color: #27793b;
+}
+
+.section022 {
+    margin-top: 10em;
+}
+
+.section221 {
+    background-color: #e8f2ea;
+    color: #27793b;
+    padding: 2em 3em 3em 5em !important;
+}
+
+.section221 h4 {
+    color: #27793b;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.section222 {
+    background-color: #d5e5da;
+    color: #27793b;
+    padding: 2em 3em 3em 5em !important;
+}
+
+.section222 h4 {
+    color: #27793b;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.section444 {
+    text-align: center;
+    color: #27793b;
+    font-weight: bold !important;
+    margin-top: 5em;
+}
+
+.card {
+    border: 0px !important;
+}
+
+.SectionSix {
+    margin-top: 5em;
+}
+
+.SectionSix2th {
+    display: none;
+}
+
+.SectionSix3th {
+    display: none;
+}
+
+div.scrollup4 {
+    cursor: pointer;
+    box-sizing: border-box;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 52%;
+    right: 2em;
+    float: right;
+    z-index: 10;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+div.scrollup4.fadein {
+    opacity: 1;
+}
