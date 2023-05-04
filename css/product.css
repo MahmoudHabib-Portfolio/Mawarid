@@ -21,7 +21,7 @@ nav {
 
 .navlist li {
     display: inline-block;
-    margin-left: 6em;
+    margin-left: 5em;
     cursor: pointer;
 }
 
